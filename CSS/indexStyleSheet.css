@@ -1,0 +1,189 @@
+/* Add styling to the body and use a background image for the whole page*/
+body {
+    background-image: url('https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTYtMDA0XzEuanBn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia;
+}
+
+/* Add styling to the mountains image and align it with the grid and next to the text*/
+#mountains {
+    border-radius: 50%;
+    border: 2px solid black;
+    float: right;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+}
+
+/* Add styling to the dice image and align it with the grid and next to the text*/
+#dice {
+    border-radius: 50%;
+    border: 2px solid black;
+    float: right;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+}
+
+/* Add styling to the highland cow image and align it with the grid and next to the text*/
+#highlandcoo {
+    border-radius: 50%;
+    border: 2px solid black;
+    float: right;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+}
+
+h1 {
+    font-size: 10vh;
+    text-align: center;
+}
+
+/* Add styling to the navigation links to be center and include background color/border*/
+nav {
+    text-align: center;
+    font-size: 2.5vh;
+    background-color: lightpink;
+    border: 2px solid black;
+    
+}
+
+h2 {
+   font-size: 4vh;
+}
+
+#para1 {
+    font-size: 2vh;
+    font-family: 'Lucida Sans Unicode';
+}
+
+/*Create a grid for the 3 sections fun facts, hobbies and favourtie things*/
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Lucida Sans';
+}
+
+ul {
+    list-style: none;
+    font-size: 1.5vw;
+}
+
+li {
+    font-size: 2.5vh;
+}
+
+/* Add styling to the first grid column of fun facts*/
+.funfacts {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:#ffa8b5;
+}
+
+/* Add styling to the second grid column of hobbies*/
+.hobbies {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:#ffcccb;
+}
+
+/* Add styling to the third grid column of favourite things*/
+.favouritethings {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color:lavender;
+}
+
+#infoItems {
+    text-align: left;
+}
+
+footer {
+    font-size: 2vh;
+}
+
+/* Recommendation HTML Specific*/
+
+.header3 {
+    text-align: center;
+    font-size: 2.8vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-size: 2vh;
+    background-color: #ffa8b5;
+}
+
+/* Add styling to the image to size it for the page to represent the first table of must watch*/
+#movie {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 7vh;
+    height: 7vh;
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 110px;
+}
+
+/* Add styling to the image to size it for the page to represent the second table of top recipes*/
+#recipe {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 7vh;
+    height: 7vh;
+    position: absolute;
+    margin-left: 1050px;
+}
+
+#emailaddress {
+    font-family: Impact;
+    font-size: 1vw;
+}
+
+/* Places To Go HTML Specific*/
+
+/* Add styling to the image to align it to the right and add a border*/
+#edinburgh {
+    border: 2px solid black;
+    float: right;
+}
+
+section {
+    font-family: Arial;
+    padding: 2vh;
+}
+
+/* Add styling to the image to align it to the left and add a border*/
+#modena {
+    border: 2px solid black;
+    float: left;
+}
+
+/* Add styling to the image to align it to the right and add a border*/
+#kona {
+    border: 2px solid black;
+    float: right;
+    height: 50vh;
+    width: auto;
+}
+
+/*All Pages
+
+Format the save button*/
+.saveButton {
+    text-align: center;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+/* Save button to change color when hovered over*/
+.saveButton:hover {
+    background-color: #e75480;
+    color: white;
+}

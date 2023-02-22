@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="./contactForm.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+    <nav>
+        <!--Create a navigation bar which links to elements on the page-->
+        <ul>
+            <!--Change the style to allow the navigation bar elements to be horizontal in a row-->
+            <li style="display: inline;"><a href="./index.html">Home Page</a></li>
+            <li style="display: inline;"><a href="./recommendations.html">Recommendations</a></li>
+            <li style="display: inline;"><a href="./placesToGo.html">Places To Go</a></li>
+            <li style="display: inline;"><a href="./saveForLater.html">Saved Items</a></li>
+            <li style="display: inline"><a href="./contactForm.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!--Create a contact form with textboxes for the user to input data-->
+    <div class="container">
+        <form>
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Your name">
+
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Your surname">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+
+            <!--Add submit button for user to submit data-->
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

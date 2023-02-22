@@ -1,0 +1,56 @@
+/* Add styling to the body and use a background image for the whole page*/
+body {
+  background-image: url('https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NTYtMDA0XzEuanBn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Georgia;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+  
+  /* Style the submit button with a specific background colour etc */
+input[type=submit] {
+  background-color: #ffa8b5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+  /* When moving the mouse over the submit button. change colour */
+input[type=submit]:hover {
+  background-color: lavender;
+}
+  
+  /* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+    font-size: 10vh;
+    text-align: center;
+}
+
+/* Add styling to the navigation links to be center and include background color/border*/
+nav {
+    text-align: center;
+    font-size: 2.5vh;
+    background-color: lightpink;
+    border: 2px solid black;
+    
+}

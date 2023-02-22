@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica's Page</title>
+    <link href="./indexStyleSheet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <header>
+        <h1>Jessica's Page</h1>
+    </header>
+
+    <nav>
+        <!--Create a navigation bar which links to elements on the page-->
+        <ul>
+            <!--Change the style to allow the navigation bar elements to be horizontal in a row-->
+            <li style="display: inline;"><a href="./index.html">Home Page</a></li>
+            <li style="display: inline;"><a href="./recommendations.html">Recommendations</a></li>
+            <li style="display: inline;"><a href="./placesToGo.html">Places To Go</a></li>
+            <li style="display: inline;"><a href="./saveForLater.html">Saved Items</a></li>
+            <li style="display: inline"><a href="./contactForm.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 id="aboutme">About Me</h2>
+            <!--Introduction information paragraph for about me section-->
+            <p id="para1">Hello! I'm Jessica and this page is designed to give you more information all about me. Please feel free to explore the page and let me know at the bottom what your favourite section is.</p>
+
+        <!--Grid with 3 columns-->
+        <div id="container"> 
+            <!--Column 1: Fun Facts-->
+            <div id="div1" class="funfacts">
+                Fun Facts
+                <!--Image corresponding to the fun fact section-->
+                <img id="mountains" src="https://media.istockphoto.com/id/1264948982/vector/vector-illustration-of-nature-landscape-with-mountains-meadows-river-and-forest-illustration.jpg?s=612x612&w=0&k=20&c=yrz4Q1qC0opiEDgM5cLpF8Gg42EQz5xgJIAzc0DN9UA=" alt="mountains">
+                <ul id="infoItems">
+                    <li>I grew up in Colorado.</li>
+                    <li>I played the flute for 12 years.</li>
+                    <li>I am originally American, but moved to the UK in 2015.</li>
+                    <li>A lot of people think I have a bit of a Scottish accent.</li>
+                    <li>I have a golden retriever named Whiskey.</li>
+                    <li>I have a MSc in Education from the University of Edinburgh</li>
+                </ul>
+                <!--Add a save button-->
+                <button type="submit" class="saveButton">Save</button>   
+            </div>
+            <!--Column 2: Hobbies-->
+            <div id="div1" class="hobbies">
+                Hobbies
+                <!--Image corresponding to the hobbies section-->
+                <img id="dice" src="https://media.istockphoto.com/id/1270297708/photo/plastic-gaming-dice.jpg?s=612x612&w=0&k=20&c=fwSnXaXgDh_zaZk6I187Q21ie3Ao-A90eyr_RSep2s8=" alt="dice">
+                <ul id="infoItems">
+                    <li>Playing piano</li>
+                    <li>Reading books</li>
+                    <li>Playing video games like CSGO, Deep Rock Galactic and Sims 4</li>
+                    <li>Baking, cooking and trying new recipes</li>
+                    <li>Doing crafts like cross stitching, knitting, resin and clay scultping</li>
+                    <li>Walking and hiking with our dog</li>
+                    <li>Playing board games including Settlers of Catan and Splendor</li>
+                </ul>
+                <!--Add a save button-->
+                <button type="submit" class="saveButton">Save</button> 
+            </div>
+            <!--Column 3: Favourite Things-->
+            <div id="div1" class="favouritethings">
+                Favourite Things
+                <!--Image corresponding to the favourite things section-->
+                <img id="highlandcoo" src="https://media.istockphoto.com/id/1326419648/vector/highland-cow-head-design-on-white-background-farm-animal-cows-logos-or-icons-vector.jpg?s=612x612&w=0&k=20&c=Phf74D8BICiPJz7Oo6nJlDnWy-kYpXA0rmnOkYpfz40=" alt="highlandcoo">
+                <ul id="infoItems">
+                    <li>Favourite Colour: Pink</li>
+                    <li>Favourite Food: Cheeseburgers</li>
+                    <li>Favourite Sweet: Cadbury Creme Egg</li>
+                    <li>Favourite Animal: Highland Coo</li>
+                    <li>Favourite Film: Tangled</li>
+                    <li>Favourite TV Show: Bob's Burgers</li>
+                    <li>Favourite Book: The Giver by Lois Lowry</li>
+                    <li>Favourite Place: Edinburgh</li>
+                    <li>Favourite Song: All Too Well by Taylor Swift</li>
+                    <li>Favourite Video Game: Sims 4</li>
+                </ul>
+                <!--Add a save button-->
+                <button type="submit" class="saveButton">Save</button> 
+            </div>
+        </div>
+
+    <!--Create a form to allow the user to select their favourite section-->
+        <form>
+            <label>Choose your favourite section:</label>
+            <br>
+            <input type="radio">Hobbies
+            <br>
+            <input type="radio">Fun Facts
+            <br>
+            <input type="radio">Favourite Things
+            <br>
+            <input type="radio">None of the Above
+            <br>
+            <button>Submit</button> 
+        </form>
+    </main>
+
+    <!--Add a like button to the page-->
+    <footer>
+        <form>
+            <button style="font-size: 13px; color:red">Click here to like this page<i class="fa fa-heart"></i></button>
+        </form>
+    </footer>
+
+    <script type="text/javascript" src="./jessicasPage.js"></script>
+</body>
+</html>

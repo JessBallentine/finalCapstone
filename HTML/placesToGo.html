@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica's Top Places To Go</title>
+    <link href="./indexStyleSheet.css" rel="stylesheet" type="text/css">
+    <link href="./placesToGo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    <h1>Jessica's Top Places To Go</h1>
+    </header>   
+
+    <main>
+        <nav>
+            <!--Create a navigation bar which links to elements on the page-->
+            <ul>
+                <!--Change the style to allow the navigation bar elements to be horizontal in a row-->
+                <li style="display: inline;"><a href="./index.html">Home Page</a></li>
+                <li style="display: inline;"><a href="./recommendations.html">Recommendations</a></li>
+                <li style="display: inline;"><a href="./placesToGo.html">Places To Go</a></li>
+                <li style="display: inline;"><a href="./saveForLater.html">Saved Items</a></li>
+                <li style="display: inline"><a href="./contactForm.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <!--Add sections for each place to visit-->
+        <!--Edinburgh Section-->
+        <section>
+            <!--Create an id for the image in order to style it and place it on the right side of the text-->
+            <img id="edinburgh" src="https://media.istockphoto.com/id/655414358/photo/edinburgh-skyline-as-seen-from-calton-hill-scotland.jpg?s=612x612&w=0&k=20&c=aNCvOnK5Z_6S57jWboZUCrdeptM8GpHaARd3cqrQE9Q=" alt="Edinburgh city">
+            
+            <h2>Edinburgh, Scotland</h2>
+                <p>Scotland's capital is one of the most unique and memorable cities in Europe. Edinburgh has a rare charm with narrow and cobbled passageways, called closes in Scots. The town is also known for its dark corners where terrifying events have taken place, its majestic buildings and gardens, countless fascinating museums, which are free to visit and, especially, the city's kind and open locals. All the above-mentioned make this city a favourite among those who have visited it.</p>
+                <button type="submit" class="saveButton">Save</button>
+            <h3>Reviews</h3>
+                <p>"Lovely place to walk about, feels like I am being transported to another era due to the rustic vibe of the old architecture! You could walk whole day long and will still be able to find things to do. There are some nice restaurants, tea houses, and museums as well! We visited Camera Obscura, National Museum of Scotland, and the Writer's museum! We even hiked up to Arthur's seat which offers a panoramic view of the town!"</p>
+                <p>-thesmequation</p>
+                <p>"So much to do and see and great food and drink too. So many shops and photo opportunities. Lovely buildings."</p>
+                <p>-antony m</p>
+        </section>
+
+        <!--Modena Section-->
+        <section>
+            <!--Create an id for the image in order to style it and place it on the left side of the text-->
+            <img id="modena" src="https://media.istockphoto.com/id/500402785/photo/modena-cathedreal.jpg?s=612x612&w=0&k=20&c=UKj0eFb84eLFVd4m2F8s96bKuI-QwqzJK27mnaZcKLY=" alt="Modena">
+            
+            <h2>Modena, Italy</h2>
+                <p>Known for its medieval history, its auto-making prowess (as home base of both Ferrari and Maserati) and its famous balsamic vinegar, Modena is a treat for visitors of all ages. The 12th-century Romanesque Cathedral of Modena, with its spectacular Ghirlandina bell tower (under restoration until the end of 2010), is a UNESCO World Heritage Site. Just outside of town (and next to the car maker's factory) in Maranello is Galleria Ferrari, dedicated to the brand and Italian motor racing industry.</p>
+                <button type="submit" class="saveButton">Save</button>
+            <h3>Reviews</h3>
+                <p>"The museums were good. I wish they would have more interactive exhibits to show you the technology inside Ferraris and how they're built at the factory."</p>
+                <p>-James C</p>
+                <p>"We have explored this awesome cathedral a few times and it is always a great experience. It takes at least an hour to see most of the interesting sights. No charge makes it even better."</p>
+                <p>-Steve S</p>
+        </section>
+
+        <!--Kona Section-->
+        <section>
+            <!--Create an id for the image in order to style it and place it on the right side of the text-->
+            <img id="kona" src="https://media.istockphoto.com/id/618211616/photo/aerial-tropical-hawaii-beach-coast-kona-island-abstract-landscape.jpg?s=612x612&w=0&k=20&c=PhXwaSt4WNGradQkDAL8yb5mB-XXvSfjioFdqfFwAE0=" alt="Kona">
+            
+            <h2>Kona, Hawaii</h2>
+                <p>Coffee drinkers will recognise Kona as the source of some of the best beans in the world. Get your blood pumping with a walk along the “Royal Footsteps” waterfront stretch of Alii Drive, or take stargazing to the next level with a nighttime visit to the summit of Mauna Kea. Waterfalls, volcanoes, and soft black sands are just some of the natural features that make Kailua unique. Shimmy your hips at a hula-filled luau, or get an eyeful of native history at the Kamakahonu compound.</p>
+                <button type="submit" class="saveButton">Save</button>
+            <h3>Reviews</h3>
+                <p>"Amazing tours of the top sights around the big island are available particularly the volcanoes and black sand beach! Our guide Kurt was extremely knowledgeable friendly and funny. His local stories from growing up on the island put an extra special spin on the tour. The food was also fantastic!"</p>
+                <p>-Samantha B</p>
+                <p>"We had a great time here with the excellent pool, bar and views! Excellent shopping and restaurants within walking distance. Very friendly staff. Our room was a little outdated but clean, quiet and comfy! Will stay here again!"</p>
+                <p>-Lisa F</p>
+        </section>
+    </main>
+
+    <!--Comment box for the user to comment and post their comment to the page-->
+    <div>
+        <h3>Add Your Comments Here</h3>
+        <input type="text" id="commentBox" placeholder="Please enter a comment and your name:">
+        <button type="submit" id="post">Add</button>
+
+        <ul id="commentsList">
+
+        </ul>
+    </div>
+
+    <!--Add a like button to the page-->
+    <footer>
+        <form>
+            <button style="font-size: 13px; color:red">Click here to like this page<i class="fa fa-heart"></i></button>
+        </form>
+    </footer>
+    
+    <script type="text/javascript" src="./placesToGo.js"></script>
+    <script type="text/javascript" src="./jessicasPage.js"></script>
+</body>
+</html>
